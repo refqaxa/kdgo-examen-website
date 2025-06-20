@@ -1,0 +1,342 @@
+:root {
+    --white: #FFFFFF;
+    --peach: #BF8268;
+    --light-beige: #E2DBD1;
+    --black: #000000;
+    --off-white: #F2F1EB;
+    --beige-border: #E1DBD0;
+    --cream: #FCFBF8;
+    --dark-blue-alt: #24313D;
+    --dark-blue: #24323D;
+}
+
+/* 
+.header {
+    background: var(--dark-blue);
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background: #F2F1EB;
+    color: black;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.svg-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 82px; 
+    z-index: 1; 
+    pointer-events: none; 
+}
+
+.svg-wrapper svg {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.svg-wrapper svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.logo, .hamburger, .my-nav {
+    z-index: 2;
+}
+
+/* Basisstijl */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #24323D;
+    padding: 1rem;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    z-index: 1;
+}
+
+header#main-header {
+    background: rgba(36, 50, 61, 0.6) !important;
+}
+
+.logoLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoLink:visited, 
+.logoLink:active, 
+.logoLink:hover, 
+.logoLink:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoLink:hover {
+    text-decoration: none;
+}
+
+.logo {
+    color: #E2DBD1;
+    font-size: 32px;
+    font-family: Lora, serif;
+}
+
+.my-nav {
+    width: 50%;
+    display: flex;
+    gap: 1.5rem;
+    z-index: 1;
+}
+
+.my-nav {
+    transition: all 0.3s ease-in-out;
+}
+
+.my-nav a {
+    color: #E2DBD1;
+    text-decoration: none;
+    font-family: Lora, serif;
+    font-size: 16px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.main-hero {
+    height: 90vh;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
+
+button.custom-btn {
+    background: #BF8268;
+    color: #E1DBD0;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    width: auto;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.hero button {
+    background: #BF8268;
+    color: #E1DBD0;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.top-feast {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.top-feast-inner h2 {
+  font-size: 32px;
+  font-weight: 700;
+
+  margin-bottom: 0;         
+  position: relative;
+  z-index: 2;      
+}
+
+.top-feast-inner svg {
+  display: block;
+  margin: -50px auto 0;      
+  z-index: -1;               
+  position: relative;
+}
+
+.top-feast-img {
+    width: 311px;
+    height: 311px;
+}
+
+.section {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.section h3 {
+    font-size: 32px;
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.section img {
+    width: 80%;
+    max-width: auto;
+    height: 300px;
+    margin-bottom: 1rem;
+}
+
+.section button {
+    background: #BF8268;
+    color: #E1DBD0;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer {
+    background: #24323D;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.arrangementen-filter {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.filter-btn {
+    background: #BF8268;
+    color: #FCFBF8;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.arrangementen-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.arrangement {
+    background: #F2F1EB;
+    padding: 1rem;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #E1DBD0;
+    border-radius: 8px;
+}
+
+.arrangement img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
+
+.details {
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.aanvragen-btn {
+    background: #24313D;
+    color: #FCFBF8;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+/* Hamburger button (verborgen op desktop) */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: #E2DBD1;
+    cursor: pointer;
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+    .my-nav {
+        display: none;
+        flex-direction: column;
+        background: #24323D;
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+    }
+
+    .my-nav.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    
+    .top-feast {
+        margin-top: 50px;
+    }
+}
