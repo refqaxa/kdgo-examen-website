@@ -20,6 +20,8 @@
     font-family: 'Lora', serif;
 }
 
+/* Basisstijl */
+
 body {
     background: #F2F1EB;
     color: black;
@@ -57,12 +59,12 @@ h1 {
     z-index: 2;
 }
 
-/* Basisstijl */
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #24323D;
+    /* opacity: 0.6; */
     padding: 1rem;
     position: relative;
     height: 80px;
@@ -70,7 +72,7 @@ h1 {
     z-index: 1;
 }
 
-header#main-header {
+header #main-header {
     background: rgba(36, 50, 61, 0.6) !important;
 }
 
@@ -116,10 +118,20 @@ header#main-header {
 }
 
 .hero {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 50vh;
+  background: var(--hero-bg) center/cover no-repeat;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.hero h1 {
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  margin: 0;
 }
 
 .main-hero {
