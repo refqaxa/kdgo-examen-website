@@ -7,185 +7,77 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lora&family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
-<body>
 
-<header class="header main-header">
-    <div class="logo"><a class="logoLink" href="index.html">Feast</a></div>
-    <div class="svg-wrapper" data-svg-wrapper style="position: relative">
-        <svg viewBox="0 0 393 82" preserveAspectRatio="none" width="393" height="90" viewBox="0 0 393 82" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g clip-path="url(#clip0_714_158)">
-            <path d="M216.186 135.732C212.794 138.171 209.751 140.937 207.117 143.975L206.682 143.973C209.373 140.848 212.49 138.004 215.97 135.5C233.16 123.202 253.715 121.521 271.823 120.011C286.233 118.803 298.632 117.767 306.491 112.005C311.24 108.484 313.45 102.137 312.016 96.1848C309.041 84.0948 294.683 75.9954 282.148 72.4683C267.496 68.2841 247.668 66.4207 226.412 67.1297C205.156 67.8387 189.143 73.8306 175.978 85.3684L168.548 92.1462L168.439 92.2378C153.086 106.39 135.765 122.42 106.016 125.661C103.133 126.014 100.415 126.183 97.805 126.306C93.8901 126.56 90.1927 126.816 87.9604 127.494C82.0257 129.304 77.7488 135.915 74.1201 143.222L73.794 143.22C77.4232 135.821 81.7553 129.072 87.8533 127.217C90.1402 126.493 93.8374 126.283 97.8065 126.029C100.362 125.86 103.08 125.737 105.963 125.384C135.549 122.142 152.87 106.158 168.168 92.0519L168.277 91.9604C170.845 89.5787 173.249 87.3805 175.762 85.1828C188.981 73.5993 205.538 67.6105 226.359 66.8529C247.181 66.0953 267.552 68.0079 282.258 72.1924C294.848 75.7659 309.368 83.9123 312.343 96.0945C313.83 102.186 311.565 108.67 306.707 112.237C298.793 118.09 286.34 119.126 271.876 120.288C253.822 121.799 233.322 123.526 216.186 135.732Z" fill="#BF8268"/>
-            <path d="M209.723 125.189C204.107 128.383 199.738 132.045 196.725 136.129C194.899 138.52 193.527 141.14 192.659 143.893L192.279 143.891C193.175 141.081 194.564 138.401 196.4 135.942C199.467 131.859 203.891 128.151 209.562 124.912C214.939 121.9 220.741 119.471 226.832 117.683C232.642 115.912 238.612 114.544 244.683 113.59C248.328 113.012 252.46 112.851 256.755 112.645C262.137 112.353 267.683 112.108 272.689 111.076C277.695 110.045 282.49 107.906 285.333 104.973C287.356 102.911 287.911 100.841 287.108 98.7624C286.304 96.6842 283.817 94.4582 279.861 92.3622C275.988 90.3993 271.902 88.7559 267.659 87.4545C262.208 85.7639 256.644 84.3475 250.997 83.2129C247.412 82.7778 243.772 82.4807 240.132 82.3218C210.408 81.0936 193.134 88.9216 183.91 95.6893C178.834 99.4391 174.514 104.023 170.304 108.469C163.906 115.206 157.344 122.22 148.137 126.084C142.471 128.448 136.16 129.472 130.067 130.452C123.974 131.431 117.228 132.545 111.507 135.047C106.924 137.097 102.892 139.93 99.6649 143.366L99.2301 143.364C102.505 139.816 106.635 136.902 111.345 134.815C117.121 132.268 123.649 131.199 129.96 130.175C136.27 129.15 142.363 128.171 147.975 125.807C157.074 121.988 163.69 115.021 170.033 108.283C174.243 103.791 178.618 99.2075 183.693 95.5037C190.789 90.2446 199.724 86.4706 210.118 84.2254C219.151 82.3412 229.265 81.5691 240.133 82.0454C243.774 82.2042 247.468 82.5017 251.053 82.9367L251.107 82.937C256.755 84.0687 262.319 85.4851 267.77 87.1787C272.031 88.4948 276.135 90.1537 280.025 92.1327C284.035 94.2751 286.523 96.455 287.434 98.6721C288.346 100.889 287.682 103.005 285.604 105.159C282.706 108.184 278.51 110.188 272.742 111.353C266.974 112.519 262.135 112.676 256.808 112.922C252.784 113.045 248.771 113.361 244.79 113.867C236.902 115.113 221.829 118.253 209.723 125.189Z" fill="#BF8268"/>
-            <path d="M338.142 137.529C353.534 126.234 360.706 107.428 356.349 89.7541C350.985 67.6511 330.054 49.4228 300.317 41.0058C274.541 33.6712 245.409 33.46 230.405 33.9741C199.472 35.0891 173.492 44.6188 153.281 62.3836C150.44 64.9173 147.708 67.3902 145.086 69.8022L145.032 69.8019C130.771 82.9463 121.322 91.0951 106.583 92.7165C104.788 92.9368 102.777 93.0175 100.602 93.1895C94.7842 93.5252 87.5527 93.9911 80.1479 96.2532C55.1566 103.945 45.6882 125.089 39.4128 139.062L38.2015 141.82L37.8761 141.68L39.0873 138.968C45.4172 124.949 54.9405 103.714 80.0408 95.9761C87.4458 93.668 94.7314 93.2484 100.549 92.8667L100.604 92.867L106.53 92.4398C121.16 90.8177 130.609 82.7149 144.815 69.6164C147.438 67.1889 150.17 64.67 153.01 62.1977C173.33 44.3875 199.365 34.7659 230.406 33.6976C245.465 33.1839 274.597 33.395 300.427 40.73C330.273 49.1936 351.312 67.5147 356.73 89.6641C361.032 107.476 353.859 126.374 338.359 137.76C334.761 140.415 330.829 142.726 326.634 144.652L325.927 144.648C330.297 142.664 334.393 140.277 338.142 137.529Z" fill="#BF8268"/>
-            <path d="M67.2089 125.625C63.1561 131.04 60.1854 137.336 57.5437 143.127L57.2176 143.126C59.805 137.334 62.8305 130.946 66.9382 125.44C72.0868 118.464 78.2 113.937 85.659 111.675C90.5049 110.182 95.779 109.843 100.89 109.55C103.174 109.378 105.62 109.254 107.959 108.991C113.248 108.401 118.414 107.189 123.307 105.391C127.888 103.637 132.221 101.451 136.225 98.8749C144.244 93.7593 151.347 87.2101 158.176 80.9357C160.744 78.5541 163.367 76.0806 166.044 73.7456C174.268 66.4668 184.133 60.6625 195.056 56.6758C205.567 52.9107 217.32 50.7654 230.041 50.3306C253.743 49.4972 276.124 51.6977 293.054 56.4938C303.636 59.5029 313.175 64.2572 320.588 70.1515C324.451 73.1758 327.782 76.6556 330.476 80.4835C333.191 84.3448 335.133 88.5602 336.221 92.9578C339.142 104.955 334.451 117.555 324.245 125.054C318.568 129.262 311.486 132.217 302.724 134.102C294.942 135.763 286.514 136.499 278.411 137.144C270.309 137.789 262.152 138.527 254.479 140.142C250.001 141.039 245.668 142.391 241.575 144.17L240.868 144.166C245.144 142.234 249.703 140.788 254.427 139.865C262.1 138.204 270.365 137.513 278.359 136.867C286.352 136.221 294.89 135.486 302.671 133.826C311.378 131.94 318.352 128.984 324.029 124.823C334.126 117.369 338.762 104.907 335.895 93.002C334.791 88.6443 332.87 84.4638 330.203 80.6202C327.509 76.8325 324.199 73.3853 320.369 70.3806C313.011 64.4867 303.526 59.7788 292.944 56.7697C276.013 51.9735 253.687 49.7734 230.093 50.6074C217.372 51.0422 205.674 53.1878 195.217 56.9532C184.33 60.9038 174.499 66.6785 166.314 73.9315C163.638 76.2664 161.015 78.7399 158.447 81.1216C151.563 87.4417 144.46 93.991 136.441 99.1066C132.432 101.7 128.078 103.887 123.468 105.623C118.549 107.456 113.344 108.684 108.012 109.268C105.673 109.531 103.226 109.655 100.888 109.826C95.8318 110.12 90.5576 110.459 85.7662 111.952C78.4158 114.215 72.3575 118.65 67.2091 125.579L67.2089 125.625Z" fill="#BF8268"/>
-            <path d="M394.101 84.2999C399.2 105.203 394.51 127.111 382.017 144.966L381.636 144.964C394.13 127.155 398.874 105.248 393.774 84.3442C385.488 50.4279 354.772 22.8359 311.522 10.5637C279.723 1.53607 245.157 1.20197 227.434 1.83884C186.009 3.30911 151.096 16.2904 123.566 40.4189C120.397 43.2118 117.501 45.9142 114.661 48.4786C111.82 51.043 102.968 59.2874 99.7521 60.882L99.6977 60.8817L96.381 61.0933C88.9864 61.5583 77.8404 62.2324 65.3176 66.0783C23.3929 79.0199 8.41994 112.39 1.26323 128.431L1.09809 128.799C0.713192 129.58 0.382909 130.316 0.0526257 131.051L-0.272958 130.957L0.772504 128.705L0.937645 128.337C8.14897 112.25 23.1224 78.7879 65.2104 65.8013C77.7876 61.9557 88.9339 61.2354 96.3826 60.8168L99.5906 60.6046C102.807 58.9639 111.549 50.9033 114.444 48.247C117.34 45.5907 120.127 42.9799 123.295 40.1869C150.88 16.0126 185.903 2.98594 227.382 1.56206C245.158 0.925497 279.779 1.25991 311.633 10.2879C354.991 22.6067 385.815 50.2454 394.101 84.2999Z" fill="#BF8268"/>
-            <path d="M305.902 24.0799C342.531 34.4712 368.436 57.474 375.288 85.576C380.439 106.848 373.083 129.386 356.418 144.821L355.929 144.818C372.702 129.43 380.113 106.893 374.961 85.6202C368.109 57.6104 342.258 34.7001 305.792 24.3557C276.977 16.1744 245.182 15.9021 228.765 16.5003C192.613 17.77 162.166 29.0255 138.295 49.9952C135.291 52.6509 132.45 55.2153 129.718 57.7342C116.113 70.2832 110.382 74.6284 103.257 75.4175L98.4178 75.7587L98.3635 75.7584C91.6757 76.1813 82.5414 76.7286 72.5775 79.8057C39.1469 90.0766 26.816 117.609 20.2101 132.363L18.999 135.075L18.6734 134.981L19.8845 132.269C26.545 117.469 38.9305 89.891 72.4703 79.5286C82.4886 76.4519 91.6776 75.8588 98.3651 75.482L98.4194 75.4823L103.205 75.0947C110.221 74.305 115.952 70.0519 129.502 57.5487C132.179 55.0294 135.021 52.4189 138.025 49.7633C162.005 28.7481 192.506 17.4468 228.766 16.1777C245.184 15.6256 277.033 15.8982 305.902 24.0799Z" fill="#BF8268"/>
-            </g>
-            <defs>
-            <clipPath id="clip0_714_158">
-            <rect width="396.223" height="150" fill="white" transform="matrix(-0.999984 -0.00566609 -0.00566609 0.999984 396.686 2.24512)"/>
-            </clipPath>
-            </defs>
-        </svg>
-    </div>
-    <button class="hamburger" id="hamburger">☰</button>
-    <nav class="nav" id="nav">
-        <a href="arrangments.html">Arrangementen</a>
-        <a href="blog.html">Blog</a>
-        <a href="about-us.html">Over ons</a>
-        <a href="contact.html">Contact</a>
-    </nav>
-</header>
+    <!-- Header with navigation -->
+    <div id="header"></div>
 
-<section class="hero">
-    <h1>Arrangement: Bedrijfsfeest</h1>
-</section>
+    <section class="hero">
+        <h1>Arrangement: Bedrijfsfeest</h1>
+    </section>
 
-<section class="booking-info">
-    <h2>Bedrijfsfeest</h2>
-    <p>Trouwen buiten in de natuur naast planten met lichtjes in de nacht.</p>
-    <p>Lorem ipsum dolor sit amet. Eum sint earum est obcaecati asperiores ut ipsam facere aut itaque voluptates eum nihil molestias aut mollitia quis. [...]</p>
-</section>
+    <section class="booking-info">
+        <h2>Bedrijfsfeest</h2>
+        <p>Trouwen buiten in de natuur naast planten met lichtjes in de nacht.</p>
+        <p>Lorem ipsum dolor sit amet. Eum sint earum est obcaecati asperiores ut ipsam facere aut itaque voluptates eum nihil molestias aut mollitia quis. [...]</p>
+    </section>
 
-<section class="booking-form">
-    <h2>Reserveren</h2>
-    <form>
-        <label>Voornaam en achternaam</label>
-        <input type="text" placeholder="Naam">
+    <section class="booking-form">
+        <h2>Reserveren</h2>
+        <form>
+            <label>Voornaam en achternaam</label>
+            <input type="text" placeholder="Naam">
 
-        <label>Bedrijfsnaam</label>
-        <input type="text" placeholder="Bedrijfsnaam">
+            <label>Bedrijfsnaam</label>
+            <input type="text" placeholder="Bedrijfsnaam">
 
-        <label>Telefoonnummer</label>
-        <input type="text" placeholder="Telefoonnummer">
+            <label>Telefoonnummer</label>
+            <input type="text" placeholder="Telefoonnummer">
 
-        <label>E-mailadres</label>
-        <input type="email" placeholder="E-mailadres">
+            <label>E-mailadres</label>
+            <input type="email" placeholder="E-mailadres">
 
-        <label>Aantal personen</label>
-        <input type="number" placeholder="Aantal personen">
+            <label>Aantal personen</label>
+            <input type="number" placeholder="Aantal personen">
 
-        <label>Datum met tijd</label>
-        <input type="text" placeholder="Datum en tijd">
+            <label>Datum met tijd</label>
+            <input type="text" placeholder="Datum en tijd">
 
-        <label>Ideeën / Wensen</label>
-        <textarea placeholder="Uw wensen"></textarea>
+            <label>Ideeën / Wensen</label>
+            <textarea placeholder="Uw wensen"></textarea>
 
-        <button type="submit">Aanvragen</button>
-    </form>
-</section>
+            <button type="submit">Aanvragen</button>
+        </form>
+    </section>
 
-<footer class="footer">
-    <p>©2025 | <a href="#">Algemene voorwaarden</a> | <a href="#">Privacyverklaring</a></p>
-    <p>Locaties: Deventer, Apeldoorn</p>
-    <p>Contact: emailinfo@wildproeverij.nl</p>
-</footer>
+    <div id="footer"></div>
 
+    <!-- script to implement header + footer + hamburger menu -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+        // 1) inject header + footer
+        Promise.all([
+            fetch("components/header.html").then(r => r.text()).then(html => document.getElementById("header").innerHTML = html),
+            fetch("components/footer.html").then(r => r.text()).then(html => document.getElementById("footer").innerHTML = html)
+        ]).then(() => {
+            // 2) pas je hamburger logic pas hier toe
+            const hamburger = document.getElementById('hamburger');
+            const nav       = document.getElementById('my-nav');
+            if (!hamburger || !nav) return;
 
-<script>
-    const hamburger = document.getElementById('hamburger');
-    const nav = document.getElementById('nav');
+            hamburger.addEventListener('click', e => {
+            e.stopPropagation();
+            nav.classList.toggle('active');
+            });
+            document.addEventListener('click', e => {
+            if (!nav.contains(e.target) && e.target !== hamburger) {
+                nav.classList.remove('active');
+            }
+            });
+        });
+        });
+    </script>
 
-    hamburger.addEventListener('click', (e) => {
-        e.stopPropagation(); // Zorg dat klik op hamburger niet direct sluit
-        nav.classList.toggle('active');
-    });
-
-    // Als je ergens buiten het menu klikt, sluiten we het menu
-    document.addEventListener('click', (e) => {
-        if (!nav.contains(e.target) && e.target !== hamburger) {
-            nav.classList.remove('active');
-        }
-    });
-
-</script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
 
 </body>
 </html>
-
-
-
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking</title>
-</head>
-<body>
-    <div style="width: 393px; height: 2755px; position: relative; background: #F2F1EB; overflow: hidden">
-  <div style="width: 393px; height: 458px; left: 0px; top: 2297px; position: absolute; background: #24323D; overflow: hidden">
-    <div style="width: 391.41px; height: 391.82px; left: 391.40px; top: 508.03px; position: absolute; transform: rotate(-180deg); transform-origin: top left; overflow: hidden">
-      <div style="width: 237.05px; height: 213.83px; left: 73.23px; top: 179.73px; position: absolute; background: #BF8268"></div>
-      <div style="width: 187.03px; height: 171.77px; left: 98.36px; top: 221.65px; position: absolute; background: #BF8268"></div>
-      <div style="width: 124.61px; height: 124.98px; left: 128.91px; top: 268.26px; position: absolute; background: #BF8268"></div>
-      <div style="width: 317.67px; height: 305.36px; left: 37.74px; top: 88.46px; position: absolute; background: #BF8268"></div>
-      <div style="width: 277.67px; height: 259.49px; left: 56.86px; top: 134.21px; position: absolute; background: #BF8268"></div>
-      <div style="width: 393.63px; height: 394.03px; left: 0px; top: 0px; position: absolute; background: #BF8268"></div>
-      <div style="width: 355.66px; height: 353.64px; left: 18.74px; top: 40.28px; position: absolute; background: #BF8268"></div>
-    </div>
-    <div style="width: 235px; height: 26.35px; left: 87px; top: 386px; position: absolute; text-align: center"><span style="color: white; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">©2025 | </span><span style="color: white; font-size: 15px; font-family: Lora; font-weight: 400; text-decoration: underline; word-wrap: break-word">Algemene voorwaarden</span><span style="color: white; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word"> | </span><span style="color: white; font-size: 15px; font-family: Lora; font-weight: 400; text-decoration: underline; word-wrap: break-word">Privacyverklaring</span></div>
-    <div style="width: 80px; height: 39.98px; left: 241.92px; top: 298.97px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Contact</div>
-    <div style="width: 80px; height: 36.35px; left: 241.92px; top: 266.26px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Over ons</div>
-    <div style="width: 80px; height: 40.89px; left: 241.92px; top: 227.18px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Blog</div>
-    <div style="width: 130px; height: 53.62px; left: 218px; top: 195.38px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Arrangmenten</div>
-    <div style="width: 98.89px; height: 34.53px; left: 43px; top: 273.53px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Apeldoorn</div>
-    <div style="width: 76.04px; height: 42.71px; left: 53px; top: 237.18px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Deventer</div>
-    <div style="width: 109px; height: 25.44px; left: 38px; top: 201.74px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Locaties:</div>
-    <div style="width: 115px; height: 67.25px; left: 233px; top: 114.50px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Facebook logo met link</div>
-    <div style="width: 115px; height: 67.25px; left: 223px; top: 62.70px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; word-wrap: break-word">Instagram logo met link</div>
-    <div style="width: 129px; height: 59.07px; left: 219px; top: 25.44px; position: absolute; text-align: center; color: #E2DBD1; font-size: 15px; font-family: Lora; font-weight: 400; text-decoration: underline; word-wrap: break-word">emailinfo@wildproeverij.nl</div>
-    <div style="width: 103px; height: 37.26px; left: 10px; top: 27.26px; position: absolute; text-align: center; color: #E2DBD1; font-size: 32px; font-family: Lora; font-weight: 400; word-wrap: break-word">Feast</div>
-  </div>
-  <div style="width: 97px; height: 35px; left: 136px; top: 2113px; position: absolute; background: #24313D; border-radius: 4px"></div>
-  <div style="width: 87px; height: 30px; left: 140px; top: 2118px; position: absolute; text-align: center; color: #E2DBD1; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Aanvragen</div>
-  <div style="width: 313.87px; height: 0px; left: 40px; top: 2090.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 132.47px; height: 25.84px; left: 44px; top: 1948px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Ideeën / Wensen</div>
-  <div style="width: 313.87px; height: 0px; left: 45.13px; top: 1922.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 122px; height: 26px; left: 38px; top: 1864px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Datum met tijd </div>
-  <div style="width: 313.87px; height: 0px; left: 42.13px; top: 1836.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 145px; height: 26px; left: 32px; top: 1789px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Aantal personen</div>
-  <div style="width: 313.87px; height: 0px; left: 38.13px; top: 1776.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 123px; height: 26px; left: 31px; top: 1737px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">E-mailadres</div>
-  <div style="width: 313.87px; height: 0px; left: 45.13px; top: 1722.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 140px; height: 25px; left: 45px; top: 1668px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Telefoonnummer </div>
-  <div style="width: 313.87px; height: 0px; left: 42.13px; top: 1650.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 129px; height: 26px; left: 31px; top: 1605px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Bedrijfsnaam </div>
-  <div style="width: 313.87px; height: 0px; left: 42.13px; top: 1579.95px; position: absolute; outline: 5px #E2DBD1 solid; outline-offset: -2.50px"></div>
-  <div style="width: 200px; height: 26px; left: 42px; top: 1532px; position: absolute; text-align: center; color: #BF8268; font-size: 16px; font-family: Lora; font-weight: 700; word-wrap: break-word">Voornaam en achternaam</div>
-  <div style="width: 116px; height: 2px; left: 135px; top: 1469px; position: absolute; outline: 2px #BF8268 solid; outline-offset: -1px"></div>
-  <div style="width: 125px; height: 35px; left: 133px; top: 1434px; position: absolute; text-align: right; color: black; font-size: 32px; font-family: Bebas Neue; font-weight: 400; word-wrap: break-word">Reserveren</div>
-  <div style="width: 303px; height: 423.13px; left: 46px; top: 600px; position: absolute; color: black; font-size: 16px; font-family: Lora; font-weight: 400; line-height: 27px; word-wrap: break-word">Lorem ipsum dolor sit amet. Eum sint earum est obcaecati asperiores ut ipsam facere aut itaque voluptates eum nihil molestias aut mollitia quis. Et beatae inventore aut incidunt quasi et illum laudantium et Quis quia. Et quia voluptatem ab rerum nobis qui optio quos et quidem nulla ab galisum laudantium. A molestiae blanditiis 33 officiis maxime et nihil sunt hic animi Quis ut libero praesentium aut exercitationem cumque At distinctio quibusdam.    Aliquam laoreet ipsum quam, nec faucibus diam scelerisque vitae. Aliquam venenatis porta luctus. Sed efficitur, nunc quis suscipit lobortis, justo elit vulputate est, vitae convallis nisl tellus id turpis. Nulla facilisi. Sed imperdiet mollis luctus. Fusce auctor pulvinar tortor, id feugiat sem elementum id. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam in felis libero. Nunc non urna sit amet risus dictum hendrerit sed id mi. Aenean et semper lectus.</div>
-  <div style="width: 305px; height: 78px; left: 41px; top: 488px; position: absolute; text-align: center; color: black; font-size: 20px; font-family: Lora; font-weight: 500; word-wrap: break-word">Trouwen buiten in het natuur naast planten met lichtjes in het nacht</div>
-  <div style="width: 124.10px; height: 30.57px; left: 112.03px; top: 457px; position: absolute; text-align: center; color: #24323D; font-size: 16px; font-family: Lora; font-weight: 500; word-wrap: break-word">Type: Zakelijk</div>
-  <img style="width: 393px; height: 358px; left: 4px; top: 9px; position: absolute" src="https://placehold.co/393x358" />
-  <div style="width: 523.02px; height: 122.07px; left: 449.06px; top: 282.07px; position: absolute; transform: rotate(180deg); transform-origin: top left; overflow: hidden">
-    <div style="width: 315.17px; height: 66.31px; left: 97.93px; top: 55.90px; position: absolute; background: #BF8268"></div>
-    <div style="width: 248.65px; height: 53.27px; left: 131.51px; top: 68.93px; position: absolute; background: #BF8268"></div>
-    <div style="width: 165.58px; height: 38.78px; left: 172.35px; top: 83.41px; position: absolute; background: #BF8268"></div>
-    <div style="width: 422.23px; height: 94.72px; left: 50.47px; top: 27.51px; position: absolute; background: #BF8268"></div>
-    <div style="width: 369.11px; height: 80.48px; left: 76.03px; top: 41.74px; position: absolute; background: #BF8268"></div>
-    <div style="width: 523.07px; height: 122.25px; left: 0px; top: 0px; position: absolute; background: #BF8268"></div>
-    <div style="width: 472.64px; height: 109.71px; left: 25.05px; top: 12.52px; position: absolute; background: #BF8268"></div>
-  </div>
-  <div style="width: 535.67px; height: 37.72px; left: -70px; top: 188px; position: absolute; text-align: center; color: #F2F1EB; font-size: 32px; font-family: Lora; font-weight: 700; word-wrap: break-word">Arrangment: <br/>bedrijfsfeest</div>
-  <div style="width: 393px; height: 82px; left: 0px; top: 0px; position: absolute; background: rgba(36, 50, 61, 0.60); overflow: hidden; border-radius: 10px">
-    <div style="width: 396.22px; height: 142.80px; left: 395.88px; top: 145.04px; position: absolute; transform: rotate(-180deg); transform-origin: top left; overflow: hidden">
-      <div style="width: 239.19px; height: 78.80px; left: 74.13px; top: 65.77px; position: absolute; background: #BF8268"></div>
-      <div style="width: 188.71px; height: 63.29px; left: 99.57px; top: 81.14px; position: absolute; background: #BF8268"></div>
-      <div style="width: 125.68px; height: 46.01px; left: 130.50px; top: 98.24px; position: absolute; background: #BF8268"></div>
-      <div style="width: 320.47px; height: 112.45px; left: 38.21px; top: 32.38px; position: absolute; background: #BF8268"></div>
-      <div style="width: 280.14px; height: 95.59px; left: 57.56px; top: 49.12px; position: absolute; background: #BF8268"></div>
-      <div style="width: 397.03px; height: 145.04px; left: 0px; top: 0px; position: absolute; background: #BF8268"></div>
-      <div style="width: 358.75px; height: 130.19px; left: 18.97px; top: 14.75px; position: absolute; background: #BF8268"></div>
-    </div>
-    <div style="width: 32px; height: 0px; left: 342px; top: 33px; position: absolute; outline: 1px white solid; outline-offset: -0.50px"></div>
-    <div style="width: 32px; height: 0px; left: 342px; top: 51px; position: absolute; outline: 1px white solid; outline-offset: -0.50px"></div>
-    <div style="width: 32px; height: 0px; left: 342px; top: 42px; position: absolute; outline: 1px white solid; outline-offset: -0.50px"></div>
-    <div style="width: 103px; height: 32px; left: -3px; top: 17px; position: absolute; text-align: center; color: #E2DBD1; font-size: 32px; font-family: Lora; font-weight: 400; word-wrap: break-word">Feast</div>
-  </div>
-</div>
-</body>
-</html> -->
