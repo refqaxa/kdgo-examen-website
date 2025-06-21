@@ -135,7 +135,25 @@ header #main-header {
 }
 
 .main-hero {
-    height: 90vh;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 85vh;
+}
+
+.main-hero h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.main-hero button {
+    background: #BF8268;
+    color: #E1DBD0;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 .background-video {
@@ -169,21 +187,6 @@ button.custom-btn {
     color: white;
     top: 50%;
     transform: translateY(-50%);
-}
-
-.hero h1 {
-    font-size: 36px;
-    margin-bottom: 1rem;
-}
-
-.hero button {
-    background: #BF8268;
-    color: #E1DBD0;
-    border: none;
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    font-weight: 700;
-    cursor: pointer;
 }
 
 .top-feast {
