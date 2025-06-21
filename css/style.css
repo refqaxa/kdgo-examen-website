@@ -222,7 +222,7 @@ button.custom-btn {
     padding: 2rem 1rem;
 }
 
-.section h3 {
+.section h3, h2 {
     font-size: 32px;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 1rem;
