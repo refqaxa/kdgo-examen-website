@@ -316,6 +316,36 @@ button.custom-btn {
     cursor: pointer;
 }
 
+/* form */
+/* make form-controls look like underlines in your peach color */
+.form-control-underline {
+  border: none;
+  border-bottom: 2px solid var(--peach);
+  border-radius: 0;
+  background: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+.form-control-underline:focus {
+  outline: none;
+  box-shadow: none;
+  border-bottom-color: var(--peach);
+}
+
+/* custom button matching your design */
+.btn-submit {
+  background-color: var(--peach);
+  border: none;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+.btn-submit:hover,
+.btn-submit:focus {
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
 
 /* Hamburger button (verborgen op desktop) */
 .hamburger {

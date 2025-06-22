@@ -16,39 +16,109 @@
         <h1>#Arrangment: [arrangment 01]</h1>
     </section>
 
-    <section class="booking-info">
-        <h2>Bedrijfsfeest</h2>
-        <p>Trouwen buiten in de natuur naast planten met lichtjes in de nacht.</p>
-        <p>Lorem ipsum dolor sit amet. Eum sint earum est obcaecati asperiores ut ipsam facere aut itaque voluptates eum nihil molestias aut mollitia quis. [...]</p>
+    <section class="d-flex my-5 align-items-center justify-content-center text-center px-3">
+        <div>
+            <h6>Type: Zakelijk</h6>
+            <h2>Bedrijfsfeest</h2>
+            <p>Trouwen buiten in de natuur naast planten met lichtjes in de nacht.</p>
+            
+            <!-- More info -->
+            <section class="container py-5 section">
+                <div class="row align-items-center gy-4">
+                    <div class="col-md-6 text-start">
+                        <p class="text-bold">
+                            Lorem ipsum dolor sit amet. Eum sint earum est obcaecati asperiores ut ipsam facere aut itaque voluptates eum nihil molestias aut mollitia quis.
+                            Et beatae inventore aut incidunt quasi et illum laudantium et Quis quia. Et quia voluptatem ab rerum nobis qui optio quos et quidem nulla ab galisum laudantium.
+                            A molestiae blanditiis 33 officiis maxime et nihil sunt hic animi Quis ut libero praesentium aut exercitationem cumque At distinctio quibusdam.
+                            Aliquam laoreet ipsum quam, nec faucibus diam scelerisque vitae. Aliquam venenatis porta luctus. Sed efficitur, nunc quis suscipit lobortis, justo elit vulputate est, 
+                            vitae convallis nisl tellus id turpis. Nulla facilisi. Sed imperdiet mollis luctus. Fusce auctor pulvinar tortor, id feugiat sem elementum id. Class aptent taciti 
+                            sociosqu ad litora torquent per conubia nostra,
+                            per inceptos himenaeos. Aliquam in felis libero. Nunc non urna sit amet risus dictum hendrerit sed id mi. Aenean et semper lectus.
+
+                        </p>
+                    </div>
+                <div class="col-md-6">
+                    <img src="images/GMM-311.png" alt="Arrangment foto"/>
+                </div>
+                </div>
+            </section>
+        </div>
     </section>
 
-    <section class="booking-form">
-        <h2>Reserveren</h2>
+    <section class="booking-form container py-5">
+        <h2 class="text-center mb-4">Reserveren</h2>
         <form>
-            <label>Voornaam en achternaam</label>
-            <input type="text" placeholder="Naam">
+            <div class="row g-4">
+                <!-- Voornaam en achternaam -->
+                <div class="col-12 col-md-6">
+                    <label for="name" class="form-label">Voornaam en achternaam</label>
+                    <input
+                    type="text"
+                    id="name"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="Naam">
+                </div>
+                <!-- Bedrijfsnaam -->
+                <div class="col-12 col-md-6">
+                    <label for="company" class="form-label">Bedrijfsnaam</label>
+                    <input
+                    type="text"
+                    id="company"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="Bedrijfsnaam">
+                </div>
+                <!-- Telefoonnummer -->
+                <div class="col-12 col-md-6">
+                    <label for="phone" class="form-label">Telefoonnummer</label>
+                    <input
+                    type="tel"
+                    id="phone"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="Telefoonnummer">
+                </div>
+                <!-- E-mailadres -->
+                <div class="col-12 col-md-6">
+                    <label for="email" class="form-label">E-mailadres</label>
+                    <input
+                    type="email"
+                    id="email"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="E-mailadres">
+                </div>
+                <!-- Aantal personen -->
+                <div class="col-12 col-md-6">
+                    <label for="persons" class="form-label">Aantal personen</label>
+                    <input
+                    type="number"
+                    id="persons"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="Aantal personen">
+                </div>
+                <!-- Datum met tijd -->
+                <div class="col-12 col-md-6">
+                    <label for="datetime" class="form-label">Datum met tijd</label>
+                    <input
+                    type="datetime-local"
+                    id="datetime"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none">
+                </div>
+                <!-- Ideeën / Wensen -->
+                <div class="col-12">
+                    <label for="ideas" class="form-label">Ideeën / Wensen</label>
+                    <textarea
+                    id="ideas"
+                    rows="4"
+                    class="form-control border-0 border-bottom rounded-0 bg-transparent shadow-none"
+                    placeholder="Uw wensen"></textarea>
+                </div>
+            </div>
 
-            <label>Bedrijfsnaam</label>
-            <input type="text" placeholder="Bedrijfsnaam">
-
-            <label>Telefoonnummer</label>
-            <input type="text" placeholder="Telefoonnummer">
-
-            <label>E-mailadres</label>
-            <input type="email" placeholder="E-mailadres">
-
-            <label>Aantal personen</label>
-            <input type="number" placeholder="Aantal personen">
-
-            <label>Datum met tijd</label>
-            <input type="text" placeholder="Datum en tijd">
-
-            <label>Ideeën / Wensen</label>
-            <textarea placeholder="Uw wensen"></textarea>
-
-            <button type="submit">Aanvragen</button>
+            <div class="text-center mt-4">
+            <button type="submit" class="btn btn-submit">Aanvragen</button>
+            </div>
         </form>
     </section>
+
 
     <div id="footer"></div>
 
